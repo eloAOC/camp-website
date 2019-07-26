@@ -1,0 +1,155 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color:#ffffff;
+}
+
+/* Global for all Containers */
+.container{
+	width: 80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+header ul{
+	margin:0;
+	padding:0;
+}
+
+/* Header */
+header{
+	background-color:#4682B4;
+	color:#FFD700;
+	border-bottom:#FFD700 4px solid; 
+}
+
+header a{
+	color:#FFD700;
+	text-transform:uppercase;
+}
+
+header li{
+	padding: 0 20px 0 20px;
+	display:inline;
+	float:left;
+}
+
+header #brand{
+	float: left;
+}
+
+header #brand h1{
+	margin: 0;
+}
+
+header nav{
+	float:right;
+	padding: -30px;
+}
+
+/* middlepage */
+#middlepage{
+	min-height: 400px;
+	background:url(../images/mountain.jpg);
+	text-align: center;
+}
+
+#middlepage h1{
+	font-weight: bolder;
+	margin-bottom: 10px;
+	margin-top: 70px;
+	font-size: 60px;
+}
+
+#middlepage p{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+/* Subscribe */
+#subscribe{
+	padding:15px;
+	background-color:#4682B4;
+}
+
+#subscribe h1{
+	color:#FFD700;
+	float: left;
+	font-size:25px;
+}
+
+#subscribe form{
+	float: right;
+	margin-top: 25px;
+}
+
+#subscribe input[type="email"]{
+	padding:4px;
+	height:20px;
+	width:250px;
+	border-radius:20px;
+}
+
+#subscribe button[type="submit"]{
+	padding:4px;
+	height:25px;
+	width:80px;
+	border-radius:20px;
+}
+
+/* Bottompage */
+
+#bottompage{
+	margin-top:20px;
+}
+
+#bottompage .box{
+	float:left;
+	text-align: center;
+	width:31%;
+	padding: 10px;
+}
+
+#bottompage .box img{
+	width:140px;
+}
+
+#bottompage h3{
+	margin-top:-10px;
+}
+
+#footer{
+	background-color:#4682B4;
+	text-align: center;
+	padding: 8px;
+	font-size: 10px;
+	color:#FFD700;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
